@@ -199,9 +199,10 @@ public class Cancion {
 /**
  * devuelve la cancion con todos sus atributos como objeto
  */
-	@Override
-	public String toString() {
-		return "Cancion [titulo=" + titulo + ", autor=" + grupo + ", duracion=" + duracion + ", sonando=" + sonando
-				+ "]";
+	@Override 
+	public String toString() { 
+	return "Datos de la canción [titulo=" + titulo + ", autor=" +  grupo + ", duracion=" + duracion + ", sonando=" + sonando 
+	+ "]"; 
 	}
+
 }
